@@ -97,6 +97,18 @@ export default function App() {
         <div className="z-10 mt-16 mb-8 rounded-full bg-[#58323E] px-14 py-3.5 font-serif text-sm uppercase tracking-[0.3em] text-[#f3e3ce] shadow-xl hover:scale-105 transition-transform cursor-pointer border border-[#f3e3ce]/20">
           I love u 🤍
         </div>
+
+        <div className="z-10 mb-10 flex w-full flex-col items-center gap-5 px-4">
+          <div className="w-[250px] -rotate-2 rounded-sm bg-[#fffaf2] p-2 pb-5 shadow-[0_14px_35px_rgba(26,8,12,0.35)] sm:w-[310px]">
+            <img src="/images/photo3.jpg" className="h-[260px] w-full object-contain sm:h-[320px]" alt="Memory 3" />
+          </div>
+          <div className="w-[250px] rotate-2 rounded-sm bg-[#fffaf2] p-2 pb-5 shadow-[0_14px_35px_rgba(26,8,12,0.35)] sm:w-[310px]">
+            <img src="/images/photo4.jpg" className="h-[260px] w-full object-contain sm:h-[320px]" alt="Memory 4" />
+          </div>
+          <div className="w-[250px] -rotate-1 rounded-sm bg-[#fffaf2] p-2 pb-5 shadow-[0_14px_35px_rgba(26,8,12,0.35)] sm:w-[310px]">
+            <img src="/images/photo5.jpg" className="h-[260px] w-full object-contain sm:h-[320px]" alt="Memory 5" />
+          </div>
+        </div>
       </section>
 
       {/* ================= SECTION 3: LETTER ================= */}
